@@ -1,0 +1,1 @@
+<?php /* Arial Bold font placeholder */ ?>

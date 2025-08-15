@@ -1,0 +1,1 @@
+<?php /* Helvetica font placeholder */ ?>

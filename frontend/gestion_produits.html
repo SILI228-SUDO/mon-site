@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestion des Produits</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .btn-ajouter {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-ajouter:hover {
+            background-color: #2980b9;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Gestion des Produits</h1>
+
+   
+    <a href="ajouter_produit.html" class="btn-ajouter">Ajouter un produit</a>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Catégorie</th>
+                <th>Prix d'achat</th>
+                <th>Prix de vente</th>
+                <th>Stock</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Exemple Produit 1</td>
+                <td>Alimentation</td>
+                <td>1000</td>
+                <td>1500</td>
+                <td>20</td>
+                <td>
+                    <button>Modifier</button>
+                    <button>Supprimer</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Exemple Produit 2</td>
+                <td>Boisson</td>
+                <td>500</td>
+                <td>800</td>
+                <td>35</td>
+                <td>
+                    <button>Modifier</button>
+                    <button>Supprimer</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

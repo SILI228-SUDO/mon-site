@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajouter un Produit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            color: #333;
+        }
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            margin-top: 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .btn:hover {
+            background-color: #2980b9;
+        }
+        .btn-retour {
+            background-color: gray;
+        }
+        .btn-retour:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ajouter un Produit</h1>
+
+    <form>
+        <label>Nom du produit :</label>
+        <input type="text" name="nom" required>
+
+        <label>Catégorie :</label>
+        <input type="text" name="categorie" required>
+
+        <label>Prix d'achat :</label>
+        <input type="number" name="prix_achat" required>
+
+        <label>Prix de vente :</label>
+        <input type="number" name="prix_vente" required>
+
+        <label>Quantité en stock :</label>
+        <input type="number" name="stock" required>
+
+        <button type="submit" class="btn">Enregistrer</button>
+        <a href="gestion_produits.html" class="btn btn-retour">Retour</a>
+    </form>
+
+</body>
+</html>

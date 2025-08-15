@@ -1,0 +1,1 @@
+<?php /* Courier font placeholder */ ?>

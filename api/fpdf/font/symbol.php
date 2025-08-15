@@ -1,0 +1,1 @@
+<?php /* Symbol font placeholder */ ?>
